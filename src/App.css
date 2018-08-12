@@ -1,0 +1,75 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+#googleMap,
+.App {
+  height: 95vh;
+	width: 100%;
+	font-family: sans-serif, serif;
+}
+
+.menu {
+    position: fixed;
+    z-index: 100;
+    width: calc(20% - 2em);
+    height: 100%;
+    background: #ccc;
+    padding: 1em;
+    bottom: 0;
+    top: 0;
+}
+
+.info-window-box {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.2em;
+	bottom: 10%;
+	left: 0;
+	z-index: 5;
+    width: calc(20% - 2em);
+	overflow: auto;
+	background: white;
+}
+
+.placeList {
+    width: 150px;
+    list-style-type: none;
+    z-index: 2;
+    padding: 0.1em;
+	margin-top: 0;
+	position: fixed;
+	cursor: pointer;
+	display: block;
+  	height: 200px;
+  	line-height: 1.7;
+  	margin-bottom: 3px;
+	padding-bottom: 6%;
+	margin-top: 10px;
+} 
+
+@media screen and (max-width: 1000px) {
+    .menu {
+        height: 20%;
+        width: calc(100% - 2em);
+        left: 0;
+        right: 0;
+    }
+
+    .info-window-box
+		bottom: 30%;
+}
