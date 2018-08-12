@@ -1,4 +1,4 @@
-﻿#Child-Friendly Places in Budapest
+﻿# Child-Friendly Places in Budapest
 
 ## Overview
 The application presents child-friendly places in Budapest. Each place can be filtered. The user can get access to its official address and rating by Foursquare.
